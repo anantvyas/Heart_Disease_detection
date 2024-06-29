@@ -48,32 +48,40 @@ thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 **1. Data Preprocessing**
 
  Loading the data
+ 
  Handling missing values
+ 
  Encoding categorical features
+ 
  Scaling the features
  
 **2. Exploratory Data Analysis (EDA)**
 
 Visualizing distributions and relationships between features
+
 Model Training
 
 **3. Splitting the data into training and test sets**
 
 Training a logistic regression model
+
 Evaluating the model on the training data
 
 **4. Model Evaluation**
 
 Testing the model on the test data
+
 Printing the accuracy scores
 
 **5. Building a Predictive System**
 
 Creating a function to make predictions based on user input
+
 Example usage of the prediction function
 
 **Key Outputs**
 
 Accuracy on Training Data: ~85.24%
+
 Accuracy on Test Data: ~80.49%
 
