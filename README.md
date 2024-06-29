@@ -4,13 +4,13 @@
 
 This project focuses on developing a machine learning model to predict the presence of heart disease in patients using various health-related features. The project utilizes a logistic regression model to achieve this goal and provides an interactive system to test the predictions.
 
-**Requirements : **
+**Requirements :**
 
-Python 3.x
-Jupyter Notebook / Google Colab Notebook
+Python 3.x , 
+Jupyter Notebook / Google Colab Notebook, 
 Libraries: numpy, pandas, matplotlib, seaborn, sklearn
 
-**Dataset : **
+**Dataset :**
 The dataset used in this project is assumed to be a heart disease dataset with features that may include age, gender, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting ECG results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, the slope of the peak exercise ST segment, number of major vessels colored by fluoroscopy, and a thalassemia condition.
 
 **Attribute Information**
@@ -42,4 +42,38 @@ ca =number of major vessels (0-3) colored by flourosopy
 thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 
 ![ECG](https://github.com/anantvyas/Heart_Disease_detection/assets/123868278/eacab771-005c-4693-bc54-533effa5c94e)
+
+**Project Structure**
+
+**1. Data Preprocessing**
+
+ Loading the data
+ Handling missing values
+ Encoding categorical features
+ Scaling the features
+ 
+**2. Exploratory Data Analysis (EDA)**
+
+Visualizing distributions and relationships between features
+Model Training
+
+**3. Splitting the data into training and test sets**
+
+Training a logistic regression model
+Evaluating the model on the training data
+
+**4. Model Evaluation**
+
+Testing the model on the test data
+Printing the accuracy scores
+
+**5. Building a Predictive System**
+
+Creating a function to make predictions based on user input
+Example usage of the prediction function
+
+**Key Outputs**
+
+Accuracy on Training Data: ~85.24%
+Accuracy on Test Data: ~80.49%
 
